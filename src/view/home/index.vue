@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <headerOperation></headerOperation>
-    <div class="flex flex-justify-between">
+    <div class="flex flex-justify-between h-100% view">
       <componentList></componentList>
       <midCanvas></midCanvas>
       <rightProperty></rightProperty>
@@ -23,4 +23,10 @@ const handleSubmit = (data) => {
   console.log(data);
 };
 </script>
-<style lang="less" socped></style>
+<style lang="less" socped>
+.main {
+  height: 89vh;
+}
+.view {
+}
+</style>

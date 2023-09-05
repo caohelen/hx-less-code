@@ -12,6 +12,7 @@
     "@arco-themes/vue-gi-demo": "^0.0.29",
     "@unocss/preset-rem-to-px": "^0.55.3",
     "less": "^4.2.0",
+    "mitt": "^3.0.1",
     "path": "^0.12.7",
     "pinia": "^2.1.6",
     "unocss": "^0.55.3",
