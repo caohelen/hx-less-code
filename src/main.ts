@@ -10,7 +10,6 @@ import '@arco-themes/vue-gi-demo/index.less';
 import 'uno.css';
 import mitt from 'mitt';
 
-
 import App from './App.vue'
 
 const pinia = createPinia()

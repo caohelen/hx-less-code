@@ -1,6 +1,6 @@
 <template>
   <div class="mid-canvas flex-1 h-100%">
-    <div class="view-contain" :style="{ width: viewWid + 'px' }">
+    <div class="view-contain" :style="{ width: 100 + '%' }">
       <div
         class="view"
         :style="{ width: viewWid + 'px', height: viewHig + 'px' }"
@@ -29,8 +29,10 @@ bus.on("handleHeightValueInput", (val) => {
 .view-contain {
   height: 100%;
   overflow-x: scroll;
+  text-align: center;
 }
 .view {
+  display: inline-block;
   background: #fff;
   background-image: linear-gradient(
       90deg,
@@ -39,8 +41,6 @@ bus.on("handleHeightValueInput", (val) => {
     ),
     linear-gradient(rgba(241, 243, 244, 1) 10%, transparent 0);
   background-size: 10px 10px;
-  margin-left: 50%;
-  transform: translateX(-50%);
 }
 ::-webkit-scrollbar {
   width: 6px;

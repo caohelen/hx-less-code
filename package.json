@@ -11,13 +11,16 @@
   "dependencies": {
     "@arco-themes/vue-gi-demo": "^0.0.29",
     "@unocss/preset-rem-to-px": "^0.55.3",
+    "@xccjh/vue3-draggable-drop": "^1.0.0",
     "less": "^4.2.0",
     "mitt": "^3.0.1",
     "path": "^0.12.7",
     "pinia": "^2.1.6",
     "unocss": "^0.55.3",
     "vue": "^3.3.4",
-    "vue-router": "4"
+    "vue-drag-drop": "^1.1.4",
+    "vue-router": "4",
+    "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.50.2",
